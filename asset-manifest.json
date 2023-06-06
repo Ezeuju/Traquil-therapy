@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Tranquil-therapy/static/css/main.77b876a8.css",
+    "main.js": "/Tranquil-therapy/static/js/main.c39bcf75.js",
+    "static/js/787.c9b13b0e.chunk.js": "/Tranquil-therapy/static/js/787.c9b13b0e.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Tranquil-therapy/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Tranquil-therapy/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Tranquil-therapy/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/howTwo.png": "/Tranquil-therapy/static/media/howTwo.7b64c50d1d1c0e18052d.png",
+    "static/media/fa-brands-400.woff2": "/Tranquil-therapy/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/counselling.jpg": "/Tranquil-therapy/static/media/counselling.3b75917e67eadb6b9e17.jpg",
+    "static/media/howThree.png": "/Tranquil-therapy/static/media/howThree.c3d864b30085b8a7851f.png",
+    "static/media/howOne.png": "/Tranquil-therapy/static/media/howOne.6fbc6d71b3d8f3d82802.png",
+    "static/media/faceNine.png": "/Tranquil-therapy/static/media/faceNine.947a5733ad82c47368e8.png",
+    "static/media/fa-regular-400.ttf": "/Tranquil-therapy/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/faceOne.jpeg": "/Tranquil-therapy/static/media/faceOne.e4feb7f68773665ab90b.jpeg",
+    "static/media/tranquilmindss.jpg": "/Tranquil-therapy/static/media/tranquilmindss.9923ba87bc863b8d272a.jpg",
+    "static/media/fa-regular-400.woff2": "/Tranquil-therapy/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/logos.png": "/Tranquil-therapy/static/media/logos.42d24e22cc7032da9013.png",
+    "static/media/sim.png": "/Tranquil-therapy/static/media/sim.c2b38a75f46ef33f5386.png",
+    "static/media/faceThree.jpeg": "/Tranquil-therapy/static/media/faceThree.2d62d54ba2ad7dc5b270.jpeg",
+    "static/media/faceFour.jpeg": "/Tranquil-therapy/static/media/faceFour.b90a633b416fe3b02e41.jpeg",
+    "static/media/faceSix.jpeg": "/Tranquil-therapy/static/media/faceSix.a6177056d42fea057783.jpeg",
+    "static/media/faceFive.jpeg": "/Tranquil-therapy/static/media/faceFive.02790e7a5c89b6a4e61d.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/Tranquil-therapy/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Tranquil-therapy/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Tranquil-therapy/index.html",
+    "main.77b876a8.css.map": "/Tranquil-therapy/static/css/main.77b876a8.css.map",
+    "main.c39bcf75.js.map": "/Tranquil-therapy/static/js/main.c39bcf75.js.map",
+    "787.c9b13b0e.chunk.js.map": "/Tranquil-therapy/static/js/787.c9b13b0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77b876a8.css",
+    "static/js/main.c39bcf75.js"
+  ]
+}
