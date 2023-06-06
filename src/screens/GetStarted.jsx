@@ -8,10 +8,10 @@ const GetStarted = () => {
     <div>
       <nav className="flex justify-between m-auto w-11/12 items-center h-20 navflex ">
 {/* <div className="w-1/5 "> */}
-<a href="/" class="flex items-center">
+<Link to="/" class="flex items-center">
       <img src={tranquilmindss} class="h-10 mr-3" alt="Tranquil Logo"/>
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tranquil</span>
-  </a>
+  </Link>
 
     {/* <a href="/Faq" class="font-bold px-3 py-3  rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75]">Home</a>
     <a href="/team" class="font-bold px-3 py-3  rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75]">About Us</a>
@@ -19,7 +19,7 @@ const GetStarted = () => {
     <a href="/reports" class="font-bold px-3 py-3  rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75]">Contact Us</a>
     <a href="/reports" class="font-bold px-3 py-3  rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75] border border-sky-500">Login</a> */}
     {/* <a href="/reports" class="font-bold px-10 py-3  rounded-full bg-[#2d4b75] hover:text-slate-900 hover:bg-slate-100 text-[#fff] ml-20">Get Started</a> */}
-    <a href="/LogIn" class="font-bold logbold px-3 py-3 w-1/5 text-center rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75] border border-sky-500">Login</a>
+    <Link to="/LogIn" class="font-bold logbold px-3 py-3 w-1/5 text-center rounded-lg hover:bg-slate-100 hover:text-slate-900 text-[#2d4b75] border border-sky-500">Login</Link>
   
 </nav>
 <h1 className='w-full flex justify-center text-3xl boldtext'>Wait!, Just before you create an account</h1>
@@ -30,29 +30,29 @@ const GetStarted = () => {
    <div className='mt-10 formheight'>          
 <form className='w-3/5 m-auto border-solid border-2 border-[#694b94] rounded-md p-5 formsmall'>
   <h1>Create your account</h1>
-  <div class="mb-6">
+  <div className="mb-6">
     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
     <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 outline-0 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required/>
   </div>
-  <div class="mb-6">
+  <div className="mb-6">
     <label for="phone-number" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone Number</label>
-    <input type="phone-number" id="phone-number" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 outline-0 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@flowbite.com" required/>
+    <input type="phone-number" id="phone-number" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 outline-0 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="phone number" required/>
   </div>
-  <div class="mb-6">
+  <div className="mb-6">
     <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
-    <input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:outline-blue-500 block w-full p-2.5 outline-0 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"  placeholder="password" required/>
+    <input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:outline-blue-500 block w-full p-2.5 outline-0  dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"  placeholder="password" required/>
   </div>
-  <div class="mb-6">
+  <div className="mb-6">
     <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Repeat password</label>
-    <input type="password" id="repeat-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 outline-0 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"  placeholder="confirm password" required/>
+    <input type="password" id="repeat-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 outline-0  dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"  placeholder="confirm password" required/>
   </div>
-  <div class="flex items-start mb-6">
+  <div className="flex items-start mb-6">
     <div class="flex items-center h-5">
       <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300  dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"  required/>
     </div>
     <label for="terms" class="ml-2 text-sm font-medium text-[#694b94]">I agree with the <a href="/" class="text-[#694b94] hover:underline">terms and conditions</a></label>
   </div>
-  <a href='/LoginTwo'><button type="submit" class="text-white w-full bg-[#694b94] hover:bg-[#d7cbe9] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Register new account</button></a>
+  <Link to='/LoginTwo'><button type="submit" class="text-white w-full bg-[#694b94] hover:bg-[#d7cbe9] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Register new account</button></Link>
 </form>
 </div>
 

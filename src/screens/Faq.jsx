@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import Accordion from '../components/Accordion'
+import {Link} from 'react-router-dom';
 
 const Faq = () => {
   return (
@@ -175,9 +176,9 @@ const Faq = () => {
   </div>
 </div> */}
 <h2 className='text-[#694b94] text-start mt-10 ml-36 headleft '>Ready to get started?</h2>
-<a href='/GetStarted'><button type="button" class=" ml-36 mt-10 buttonleft text-white bg-[#694b94]  focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-10 py-3 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-5">
+<Link to='/GetStarted'><button type="button" class=" ml-36 mt-10 buttonleft text-white bg-[#694b94]  focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-10 py-3 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-5">
  Get Started
-</button></a>
+</button></Link>
 <Footer />
     </div>
   )

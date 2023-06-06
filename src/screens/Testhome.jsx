@@ -40,33 +40,33 @@ const testHome = () => {
   return (
     <div>
         
-<nav class="bg-white   w-full  top-0 left-0">
-  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
-  <a href="/" class="flex items-center">
+<nav className="bg-white   w-full  top-0 left-0">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
+  <Link to="/" class="flex items-center">
       <img src={tranquilmindss} class="h-10 mr-3" alt="Tranquil Logo"/>
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tranquil</span>
-  </a>
+  </Link>
   
-  <div class="flex md:order-2 py-4">
+  <div className="flex md:order-2 py-4">
       <Link to='/GetStarted'><button type="button" class="text-white  bg-[#694b94] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0  dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></Link>
       <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       </button>
   </div>
-  <div class="items-center justify-between hamburger w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-    <ul class="flex flex-col p-4 md:p-0 mt-4  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+  <div className="items-center justify-between hamburger w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul className="flex flex-col p-4 md:p-0 mt-4  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
       <li>
-        <a href="/Faq" class="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:text-[#694b94] md:p-0" aria-current="page">About Us</a>
+        <Link to="/Faq" class="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:text-[#694b94] md:p-0" aria-current="page">About Us</Link>
       </li>
       <li>
-        <a href="/Reviews" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</a>
+        <Link to="/Reviews" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reviews</Link>
       </li>
       <li>
-        <a href="/ContactUs" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</a>
+        <Link to="/ContactUs" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</Link>
       </li>
       <li>
-        <a href="/LogIn" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">LogIn</a>
+        <Link to="/LogIn" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#694b94] md:p-0   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">LogIn</Link>
       </li>
      
     </ul>
@@ -77,17 +77,17 @@ const testHome = () => {
 <div
         className=" w-full h-full bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply"
         style={{ backgroundImage: `url(${counselling})` }}>
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white mt-10 md:text-3xl lg:text-5xl">Over 13,000 licensed therapists can help you thrive.</h1>
-        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Professional therapy by text, phone, and video calls.</p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a href="/GetStarted" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#694b94] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+    <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white mt-10 md:text-3xl lg:text-5xl">Over 13,000 licensed therapists can help you thrive.</h1>
+        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Professional therapy by text, phone, and video calls.</p>
+        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <Link to="/GetStarted" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-[#694b94] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
                 Get started
                 <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-            <a href="/Faq" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:[#694b94] focus:ring-4 focus:ring-gray-400">
+            </Link>
+            <Link to="/Faq" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:[#694b94] focus:ring-4 focus:ring-gray-400">
                 Learn more
-            </a>  
+            </Link>  
         </div>
     </div>
 </div>
@@ -150,10 +150,10 @@ Professional and credentialled therapists who you can trust</h2>
                   {/* <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white ">Resources</h2> */}
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="/Faq" class="hover:text-[#93c5fd] text-[#fff]">About Us</a>
+                          <Link to="/Faq" class="hover:text-[#93c5fd] text-[#fff]">About Us</Link>
                       </li>
                       <li>
-                          <a href="/Reviews" class="hover:hover:text-[#93c5fd] text-[#fff]">Reviews</a>
+                          <Link to="/Reviews" class="hover:hover:text-[#93c5fd] text-[#fff]">Reviews</Link>
                       </li>
                   </ul>
               </div>
@@ -161,10 +161,10 @@ Professional and credentialled therapists who you can trust</h2>
                   {/* <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2> */}
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="/ContactUs" class="hover:hover:text-[#93c5fd] text-[#fff]">Contact Us</a>
+                          <Link to="/ContactUs" class="hover:hover:text-[#93c5fd] text-[#fff]">Contact Us</Link>
                       </li>
                       <li>
-                          <a href="/GetStarted" class="hover:hover:text-[#93c5fd] text-[#fff]">Get Started</a>
+                          <Link to="/GetStarted" class="hover:hover:text-[#93c5fd] text-[#fff]">Get Started</Link>
                       </li>
                   </ul>
               </div>
@@ -172,10 +172,10 @@ Professional and credentialled therapists who you can trust</h2>
                   {/* <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2> */}
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="/dashboard" class="hover:hover:text-[#93c5fd] text-[#fff]">Privacy Policy</a>
+                          <Link to="/dashboard" class="hover:hover:text-[#93c5fd] text-[#fff]">Privacy Policy</Link>
                       </li>
                       <li>
-                          <a href="/dashboard" class="hover:text-[#93c5fd] text-[#fff]">Terms &amp; Conditions</a>
+                          <Link to="/dashboard" class="hover:text-[#93c5fd] text-[#fff]">Terms &amp; Conditions</Link>
                       </li>
                   </ul>
               </div>
@@ -183,7 +183,7 @@ Professional and credentialled therapists who you can trust</h2>
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline hover:text-[#cbd5e1]">Tranquil™</a>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline hover:text-[#cbd5e1]">Tranquil™</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0 ">
               <a href="/dashboard" class="text-[#fff] hover:text-gray-900 dark:hover:text-white">
