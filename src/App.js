@@ -8,6 +8,7 @@ import ContactUs from './screens/ContactUs';
 import LogIn from './screens/LogIn';
 import LoginTwo from './screens/LoginTwo';
 import GetStarted from './screens/GetStarted';
+import About from './screens/About';
 // import Testhome from  './screens/Testhome';
 
 
@@ -17,6 +18,7 @@ function App() {
    
     <Route path='/' element={<Testhome />}/>
     <Route path='/Faq' element={<Faq/>} />
+    <Route path='/About' element={<About/>} />
     <Route path='/Reviews' element={<Reviews/>} />
     <Route path='/ContactUs' element={<ContactUs/>} />
     <Route path='/LogIn' element={<LogIn/>} />
