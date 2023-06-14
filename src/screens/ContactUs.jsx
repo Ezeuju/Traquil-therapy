@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AppNavbar from '../components/AppNavbar';
 
 const ContactUs = () => {
   return (
     <div>
       <Navbar />
+      <AppNavbar />
       <div className="w-3/4 m-auto">
         <h1 className="text-center">Contact us</h1>
         <p className=" w-full flex justify-center center">

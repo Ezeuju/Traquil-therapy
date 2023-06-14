@@ -3,11 +3,13 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import Accordion from '../components/Accordion'
 import {Link} from 'react-router-dom';
+import AppNavbar from '../components/AppNavbar';
 
 const Faq = () => {
   return (
     <div>
       <Navbar />
+      <AppNavbar />
       <h1 className='text-[#694b94] adjust text-3xl w-3/4 ml-28 pt-10 pb-10 font-bold frequent'>Frequently asked questions by parents</h1>
       <div className='Accord'>
         <Accordion />

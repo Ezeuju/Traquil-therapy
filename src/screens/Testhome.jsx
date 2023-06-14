@@ -11,11 +11,12 @@ import faceSix from '../assets/faceSix.jpeg'
 import howOne from '../assets/howOne.png'
 import howTwo from '../assets/howTwo.png'
 import howThree from '../assets/howThree.png'
-import { FaArrowDown } from "react-icons/fa";
+import { FaAppStore, FaArrowDown } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { MdFacebook } from "react-icons/md";
 import { MdWhatsapp } from "react-icons/md";
+import AppNavbar from '../components/AppNavbar';
 // import simcha from '../assets/simcha.png';
 // import sim from '../assets/sim.png';
 // import { Collapse } from 'flowbite';
@@ -39,22 +40,23 @@ const testHome = () => {
 
   return (
     <div>
-        
-<nav className="bg-white   w-full  top-0 left-0">
-  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4">
+        <AppNavbar />
+    
+        <nav className="bg-white   w-full  top-0 left-0">
+  <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 logoNone">
   <Link to="/" class="flex items-center">
       <img src={tranquilmindss} class="h-10 mr-3" alt="Tranquil Logo"/>
       <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tranquil</span>
   </Link>
   
-  <div className="flex md:order-2 py-4">
+  <div className="flex md:order-2 py-4 buttonNone">
       <Link to='/GetStarted'><button type="button" class="text-white  bg-[#694b94] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0  dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button></Link>
       <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
       </button>
   </div>
-  <div className="items-center justify-between hamburger w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+  <div className="items-center navNone justify-between hamburger w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
     <ul className="flex flex-col p-4 md:p-0 mt-4  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
       <li>
         <Link to="/Faq" class="block py-2 pl-3 pr-4 text-gray-900 bg-blue-700 rounded md:bg-transparent md:text-[#694b94] md:p-0" aria-current="page">About Us</Link>
@@ -72,7 +74,7 @@ const testHome = () => {
     </ul>
   </div>
   </div>
-</nav>
+</nav>  
 
 <div
         className=" w-full h-full bg-cover bg-no-repeat bg-gray-700 bg-blend-multiply"
@@ -104,7 +106,7 @@ Professional and credentialled therapists who you can trust</h2>
 <img src={faceSix} alt="" className='w-1/5  rounded-full ml-[-1rem] border-4 border-sky-500 none'/>
 </div>
 <p className='text-[#fff] w-3/5 flex justify-center pt-10 m-auto text-xl leading-8 font-sans pb-2'>Tap into a network of credentialled, accredited, and experienced therapists who can help you and your child with a range of issues including depression, anxiety, relationships, bullying, trauma, and more. With our therapists, you get the same professionalism and quality you would expect from an in-office therapist, but with the ability to communicate when and how you want.</p>
-<Link to='/GetStarted'><button class="font-sans text-xl rounded-md bg-[#fff] mt-2 py-2 text-[#2d4b75]  hover:bg-sky-500 hover:text-slate-100 flex justify-center w-1/4 m-auto text-center  buttonget ">Get matched to a therapist</button></Link>
+<Link to='/GetStarted'><button className="font-sans link text-xl rounded-md bg-[#fff] mt-2 py-2 text-[#2d4b75]  hover:bg-sky-500 hover:text-slate-100 flex justify-center w-1/4 m-auto text-center  buttonget ">Get matched to a therapist</button></Link>
 </div>
 <div className='w-full h-[1650px] bg-slate-100 '>
   <h1 className='text-center font-sans text-4xl txt text-[#694b94] pt-10'>How it works</h1>

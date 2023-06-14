@@ -9,10 +9,13 @@ import LogIn from './screens/LogIn';
 import LoginTwo from './screens/LoginTwo';
 import GetStarted from './screens/GetStarted';
 import About from './screens/About';
+import Dashboard from './screens/Dashboard';
+
 // import Testhome from  './screens/Testhome';
 
 
 function App() {
+ 
   return (
     <Routes>
    
@@ -24,6 +27,7 @@ function App() {
     <Route path='/LogIn' element={<LogIn/>} />
     <Route path='/LoginTwo' element={<LoginTwo/>} />
     <Route path='/GetStarted' element={<GetStarted/>} />
+    <Route path='/Dashboard' element={<Dashboard/>} />
     {/* <Route path='/Testhome' element={<Testhome/>} /> */}
   </Routes>
   );

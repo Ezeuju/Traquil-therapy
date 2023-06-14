@@ -24,6 +24,21 @@
 .formheight{
   height: 140vh;
 }
+.navbar-dark .navbar-toggler-icon {
+  filter: invert(100%);
+}
+a{
+  text-decoration: none !important;
+}
+.NavLink{
+  text-decoration: none !important;
+}
+.smallNav{
+  display: none;
+}
+
+
+
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
@@ -391,6 +406,37 @@ body {
 }
 .bone{
   /* width: 90%; */
+}
+/* .custom-toggler .navbar-toggler-icon { 
+  background-image: url(“data:image/svg+xml;charset=utf8, %3Csvg viewBox=’0 0 32 32′ xmlns=’http://www.w3.org/2000/svg’%3E%3Cpath stroke=’rgba(0, 128, 0, 0.8)’ stroke-width=’2′ stroke-linecap=’round’ stroke-miterlimit=’10’ d=’M4 8h24M4 16h24M4 24h24’/%3E%3C/svg%3E”); 
+} */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='black' stroke-width='2' stroke-linecap='round' x1='3' y1='12' x2='27' y2='12'/%3E%3Cline stroke='black' stroke-width='2' stroke-linecap='round' x1='3' y1='18' x2='27' y2='18'/%3E%3Cline stroke='black' stroke-width='2' stroke-linecap='round' x1='3' y1='24' x2='27' y2='24'/%3E%3C/svg%3E");
+}
+
+.toggle{
+  color: black
+}
+.navbar-toggler{
+  color: black;
+}
+.navbar-light{
+  color: black;
+}
+.buttonNone{
+  display: none;
+}
+.navNone{
+  display: none;
+}
+.logoNone{
+  display: none;
+}
+.smallNav{
+  display: block;
+}
+.logobon{
+  display:block;
 }
 
 

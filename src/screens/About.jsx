@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
+import AppNavbar from '../components/AppNavbar';
 import Footer from '../components/Footer';
 
 const About = () => {
   return (
     <div>
       <Navbar />
+      <AppNavbar />
 
       <h1 className='text-center py-2 text-[#694b94]'>Welcome to tranquil therapy</h1>
       <p className='w-4/5 m-auto'>Tranquil therapy was birthed out of hope and compassion for people who struggle with different kinds of mental challenge

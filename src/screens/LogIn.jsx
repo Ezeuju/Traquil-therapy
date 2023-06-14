@@ -1,13 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import {Link} from  'react-router-dom'
+import {Link} from  'react-router-dom';
+import AppNavbar from '../components/AppNavbar';
+
 // import counselling from '../assets/counselling.jpg'
 
 const LogIn = () => {
   return (
     <div>
       <Navbar />
+      <AppNavbar />
       
 <div className="bg-violet-300">
     <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
@@ -42,7 +45,7 @@ const LogIn = () => {
                         </div>
                         <a href="/" class="ml-auto text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Lost Password?</a>
                     </div>
-                   <Link to='/LoginTwo'><button type="submit" class="w-full px-5 py-2 text-base font-medium text-center mt-10 text-white bg-[#694b94] rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto  dark:focus:ring-blue-800">Login to your account</button></Link>
+                   <Link to='/Dashboard'><button type="submit" class="w-full px-5 py-2 text-base font-medium text-center mt-10 text-white bg-[#694b94] rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto  dark:focus:ring-blue-800">Login to your account</button></Link>
                     <div class="text-sm font-medium text-gray-900 dark:text-white">
                         Not registered yet? <a href="/GetStarted"class="text-blue-600 hover:underline dark:text-blue-500">Create account</a>
                     </div>

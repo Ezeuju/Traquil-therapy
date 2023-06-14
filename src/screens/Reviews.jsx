@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+// import AppNavbar from '../components/AppNavbar'
 import CardList from '../components/CardList'
 import faceOne from '../assets/faceOne.jpeg'
 import faceTwo from '../assets/faceTwo.jpeg'
@@ -10,7 +10,9 @@ import faceSix from '../assets/faceSix.jpeg'
 import faceSeven from '../assets/faceSeven.jpeg'
 import faceEight from  '../assets/faceEight.jpeg'
 import faceNine from '../assets/faceNine.png'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
+import AppNavbar from '../components/AppNavbar';
+import Navbar from '../components/Navbar';
 
 const Reviews = () => {
   const cardData = [
@@ -65,6 +67,7 @@ const Reviews = () => {
   return (
     <div>
       <Navbar />
+      <AppNavbar />
       <div className='bg-violet-300 sm:h-90 flex flex-col items-center pt-10  w-full'>
         <h1 className='text-[#020101]'>Traquil reviews</h1>
         <p className='text-gray-950 pb-10 text-center w-4/5 m-auto'>These quotes represent a few of the many positive reviews that we have received for therapists who work with Teen Counseling. We don't pay anyone to provide their review and they are all made voluntarily. Some people's experience receiving therapy with Teen Counseling might be different. If you would like to review your therapist, please send your review to contact@teencounseling.com. These quotes represent a few of the many positive reviews that we have received for therapists who work with BetterHelp.</p>
